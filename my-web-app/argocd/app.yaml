@@ -4,9 +4,9 @@ metadata:
   name: my-web-app
 spec:
   destination:
-    server: 'https://kubernetes.default.svc'
+    server: 'https://10.22.70.190:6443'
     namespace: default
   source:
-    repoURL: 'https://github.com/your-username/your-repo.git'
+    repoURL: 'https://github.com/Mamatha-Reddy-24/GitOps_ArgoCD_local.git'
     path: 'my-web-app'
   project: default
